@@ -22,7 +22,7 @@ body{
   display: flex;
   align-items: center;
 }
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   #navi-bar {
     background-color: #44bcc9 !important;
             }
@@ -32,13 +32,9 @@ body{
     border: 5px solid #44bcc9;
     color: white;
 }
-#id-link{
-    color: #44bcc9;
-}
 #box-header{
     color: #44bcc9;
 }
-
 footer {
 background-color: grey;
 border-top-style: solid;

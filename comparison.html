@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Comparison: Latitude vs X</title>
+  </head>
+
+  <body>
+  	<!-- Navigation bar -->
+  	<nav id="navi-bar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <a id="navi-header" class="navbar-brand" href="index.html">Latitude</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse navbar-collapse goes into the "hamburger" -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="navbar-nav ml-auto">
+          <!-- Dropdown Menu -->
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <div class="dropdown-menu" aria-labelledby="navbar-dropdown-menu">
+                  <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                </div>
+          </div>
+          <!-- Other Navi Bar Links -->
+          <a class="nav-item nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="data.html">Data</a>
+      </div>
+    </nav>
+
+    <div class="container vertical-center">
+        <div class="box">
+            <div id="box-header" class="page-header"><h1>Comparison: Latitude vs X</h1></div><br><br>
+            <p> Click any plot to get an in-depth analysis.</P>
+
+            <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12"><a href="max_temp.html"><img class="graph img-thumbnail" src="Resources/assets/images/Fig1.png" alt=""></a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12"><a href="humidity.html"><img class="graph img-thumbnail" src="Resources/assets/images/Fig2.png" alt=""></a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12"><a href="cloudiness.html"><img class="graph img-thumbnail" src="Resources/assets/images/Fig3.png" alt=""></a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12"><a href="wind_speed.html"><img class="graph img-thumbnail" src="Resources/assets/images/Fig4.png" alt=""></a></div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>Copyright Coding Bootcamp 2020</footer>
+
+  <!-- JQuery and Javascript for DropDown Actions to work -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
